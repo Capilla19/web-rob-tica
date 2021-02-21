@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"
+    />
+    <link rel="stylesheet" href="final.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Capacitación Robótica</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/kuayolo-icon.png" />
+  </head>
+  <body>
+    <nav
+      class="flex items-center justify-between flex-wrap bg-teal-500 p-6 bg-gray-200 list-none"
+    >
+    <li><a href="inicio.html" class="icon icon-home hover:text-white"></a></li>
+      <div class="flex items-center flex-shrink-0 lg:hidden">
+        <img src="img/kuayolo.png" width="150" height="50" />
+      </div>
+      <div class="block lg:hidden">
+        <button
+          id="boton"
+          class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-black hover:border-black"
+        >
+        <svg
+          class="fill-current h-3 w-3"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+        </button>
+      </div>
+      <div
+        id="menu"
+        class="w-full hidden flex-grow lg:flex lg:flex-wrap lg:items-center lg:w-auto text-right lg:text-center"
+      >
+        <div class="text-sm lg:text-2xl lg:flex-grow">
+          <a
+            href="nosotros.html"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-7"
+          >
+            Nosotros
+          </a>
+          <a
+            href="mision-vision.html"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-7"
+          >
+            Misión & Visión
+          </a>
+          <a
+            href="contactanos.html"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-7"
+          >
+            Contactanos
+          </a>
+          <img src="img/kuayolo.png" width="200" height="100" class="hidden lg:inline-block"/>  
+          <a
+            href="valores.html"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-7"
+          >
+            Valores
+          </a>
+          <a
+            href="#responsive-header"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-7"
+          >
+            Cursos
+          </a>
+          <a
+            href="sesión.html"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-7"
+          >
+            Iniciar Sesión
+          </a>
+          <a
+            href="registrarse.html"
+            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-7"
+          >
+            Registrarse
+          </a>
+        </div>
+      </div>
+    </nav>
+    <main class="block">
+      <section
+        class="w-full justify-center block lg:bg-gray-600 lg:flex lg:flex-wrap"
+      >
+      <h2
+        class="w-full text-center p-2 font-dancing text-gray-700 m-2 text-2xl lg:text-white"
+      >
+        ¡Bienvenido!
+      </h2>
+        <div class="w-full lg:w-3/4">
+          <p class="text-gray-700 p-2 lg:text-white">
+            Queremos darte la más cordial bienvenida a estos cursos digitales;
+            una filosofía que promueve una educación armónica, integral y por
+            competencias tendente al desarrollo no sólo académico, sino también
+            a la formación de valores para afrontar la vida diaria.
+          </p>
+          <p class="text-gray-700 p-2 lg:text-white">
+            Ha sido el trabajo, la entrega y el esfuerzo, los que han ido
+            ubicando poco a poco a nuestro quipo de trabajo en la escena
+            educativa de KUAYOLO. Somos, gracias al esfuerzo de todos, una
+            empresa con calidad.
+          </p>
+          <img
+            class="max-w-full h-auto align-center"
+            src="img/kuayolo.png"
+            alt="banner"
+          />
+          <p class="text-gray-700 p-2 lg:text-white">
+            ¿No cuentas con los conocimientos de mecánica, electrónica o
+            programación? ¡no te preocupes! En este curso, aplicarás
+            conocimientos básicos de mecánica, electrónica y programación para
+            construir y controlar robots. Parece complicado, pero no se
+            preocupe, lo encontrará muy simple. El único requisito es que esté
+            interesado en aprender sobre robots.
+          </p>
+        </div>
+        <div class="hidden lg:block lg:w-1/4">
+          <img src="img/robot.png" alt="banner" />
+        </div>
+      </section>
+      <div class="w-full text-center">
+        <h3 class="m-2 text-2xl ml-4 font-anton">
+          Selecciona el área de tu interes
+        </h3>
+        <ul class="w-full bg-black text-white flex flex-wrap py-5">
+          <li class="icon icon-pacman text-right w-1/3">
+            <a href="diseño.html" class="hover:bg-gray-500"> DESIGN</a>
+          </li>
+          <li class="icon icon-cogs w-1/3">
+            <a href="mecanica.html" class="hover:bg-gray-500"> BUILDER</a>
+          </li>
+          <li class="icon icon-embed2 text-left w-1/3">
+            <a href="programacion.html" class="hover:bg-gray-500"> PROGRAMMING</a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer class="bg-gray-200 text-black p-8 text-center mt-5 list-none flex flex-wrap">
+      <h4 class="font-bree text-2xl font-dancing w-full">
+        Siguenos en nuestras redes sociales para más información
+      </h4>
+      <div class="w-1/2 text-right px-5">
+        <li class="icon icon-facebook">
+          <a href="https://www.facebook.com/UTA-Robotics-1945960895427534"
+            > Facebook</a
+          >
+        </div>
+      <div class="w-1/2 text-left px-5">
+        </li>
+        <li class="icon icon-instagram">
+          <a href="https://www.instagram.com/tal_robotics/"> Instagram</a>
+        </li>
+      </div>
+      <p class="text-center w-full mt-2">
+        2021 Cursos de Robótica | Todos los derechos reservados a KUAYOLO
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

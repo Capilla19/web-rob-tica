@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ballet&family=Bree+Serif&family=Dancing+Script:wght@400;500;600;700&display=swap');
+.menu-li{
+    @apply text-white list-none p-5 text-lg hidden;
+}
+
+input::placeholder {
+	color: #718096;
+	font-weight: 300;
+}
+
+.flex-100 {
+	flex: 0 1 100%;
+}
+
+.flex-50 {
+	flex: 0 1 50%;
+}
+
+.max-width-form {
+	max-width: 450px;
+}
+
+.checkbox {
+	transform: scale(1.2);
+}
+
+.bg-blue-google {
+	background-color: #4285F4;
+}
+
+.bg-pink-dribbble {
+	background-color: #EA4C89;
+}
+
+.button-icon {
+	position: absolute;
+	left: 23px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
